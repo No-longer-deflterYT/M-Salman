@@ -26,7 +26,9 @@ const Services = () => {
              whileInView={{opacity: 1}}
              transition={{duration: 0.5, delay: 0.7}}
              className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo '>
-                I am a frontend developer from Multan, Pakistsn with over 2.5 years of experience in multiple software houses in pakistan, Now ready to work with you.</motion.p>
+               I am an advance video editor from Multan, Pakistan with 3+ year of 
+experience in self-employee and 1.5 mouth in software house located in 
+Pakistan. Now ready to work with you.</motion.p>
 
              <motion.div 
               initial={{opacity: 0}}

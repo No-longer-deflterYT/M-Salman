@@ -1,15 +1,15 @@
-import user_image from './user-image.png';
+import user_image from './user-image.jpeg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
 import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
-import vscode from './vscode.png';
-import firebase from './firebase.png';
-import figma from './figma.png';
-import git from './git.png';
-import mongodb from './mongodb.png';
+import vscode from './vscode.jpeg';
+import firebase from './firebase.jpeg';
+import figma from './figma.jpeg';
+import git from './git.jpeg';
+import mongodb from './mongodb.jpeg';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -78,42 +78,47 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Food del',
-        description: 'Mobile App',
-        bgImage: '/work-1.png',
-        link: 'https://hungerpk.netlify.app/',
+        title: 'Anime (AMV)',
+        description: 'Editing',
+        mediaSource: '/work-1.mp4', 
     },
     {
-        title: 'Portfolio',
-        description: 'Web design',
-        bgImage: '/work-2.png',
-        link: 'https://chtalha.netlify.app/',
+        title: 'Anime (AMV)',        
+        description: 'Editing',
+        mediaSource: '/work-2.mp4',
     },
     {
-        title: 'universty site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-        link: '',
+        title: 'Anime (AMV)',
+        description: 'Editing',
+        mediaSource: '/work-3.mp4',
     },
     {
-        title: 'Travl site',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-        link: 'https://travldotpk.netlify.app/',
+        title: 'Anime (AMV)',
+        description: 'Editing',
+        mediaSource: '/work-4.mp4', 
+    },
+    {
+        title: 'Anime (AMV)',
+        description: 'Editing',
+        mediaSource: '/work-3.mp4',
+    },
+    {
+        title: 'Anime (AMV)',
+        description: 'Editing',
+        mediaSource: '/work-4.mp4', 
     },
 ]
-
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Storytelling', description: 'I craft compelling storytelling videos that capture emotions, build suspense, and deliver your message clearly...', link: '' },
+    { icon: assets.mobile_icon, title: 'Video Thumbnail', description: 'I can create High quailty eye catching thumbnail for your youtube videos..', link: '' },
+    { icon: assets.ui_icon, title: 'Anime Editing', description: 'I create dynamic Anime Music Videos (AMVs) with precise timing, smooth transitions, and stunning effects...', link: '' },
+    { icon: assets.graphics_icon, title: 'Ads and promotion video', description: 'I produce professional ads and promotional videos that grab attention and drive results...', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'English(Advance),Urdu (Fluent)' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor of Data Science' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Edit more than 500 videos and projects' }
 ];
 
 export const toolsData = [

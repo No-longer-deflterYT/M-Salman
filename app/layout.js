@@ -10,8 +10,8 @@ const ovo = Ovo({
  });
 
 export const metadata = {
-  title: "Muhammad_Abdullah",
-  description: "Welcome to my portfolio! I'm Muhammad Abdullah, a passionate web developer skilled in building responsive, user-friendly, and visually appealing websites. I specialize in React, Next.js, Node.js, and MongoDB Atlas to create fast, scalable, and dynamic web applications. With expertise in modern web development, I design seamless digital experiences that boost user engagement and performance. Explore my work to see how I turn ideas into interactive and functional websites optimized for performance, SEO, and user experience.",
+  title: "M. Salman",
+  description: "I am an advance video editor from Multan, Pakistan with 3+ year of experience in self-employee and 1.5 mouth in software house located in Pakistan.",
 };
 
 export default function RootLayout({ children }) {

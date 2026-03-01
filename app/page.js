@@ -7,6 +7,7 @@ import Work from "./components/work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
+import AllWork from "./components/all-work";
 
 export default function Home() {
 
@@ -39,7 +40,8 @@ export default function Home() {
     <Services isDarkMode={isDarkMode} />
     <Work isDarkMode={isDarkMode} />
     <Contact isDarkMode={isDarkMode} />
-    <Footer isDarkMode={isDarkMode} />
+    <Footer isDarkMode={isDarkMode}/>
     </>
+  
   );
 }
